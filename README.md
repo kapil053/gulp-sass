@@ -6,14 +6,7 @@ Getting started
 
 1. [Installation](#installation)
   * [Requirements](#requirements)
-  * [Quick start](#start) 
-2. [Project structure](#structure)  
-3. [Configuration](#config)  
-  * [Sass](#sass)
-  * [Modernizr](#modernizr)
-  * [Bower components](#bowerc)  
-  * [Changing the folder structure](#changestructure)
-4. [Dependencies](#dependencies)  
+  * [Quick start](#start)  
 
 <a name="installation"></a> Installation
 ------
