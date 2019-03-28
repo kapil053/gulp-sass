@@ -74,10 +74,6 @@ This command will build our project from the source files (`src/`) into a tempor
 
 Whenever you modify any of the files in the `src/` folder, our project will be recompiled and the browser refreshes automatically. Note that the `gulp dev` command will **not** optimize or minifiy any of the compiled output files. This command is for development only.
 
-> Don't know how to cancel a command in your terminal? Simply hit `CTRL+C`  
-
-**What are these style guidelines?**  
-This is to help me keep consistent throughout my project :). You can easily remove these by deleting `styleguide.html` and `scss/partials/_styleguide.scss` in the `src/` folder.    
 
 #### 4. Build  
 If your project is ready to go online, create a production-ready build by running:
