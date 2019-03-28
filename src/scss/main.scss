@@ -1,0 +1,18 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+
+// import scss assets from bower_components - this will be done automatically
+// bower:scss
+@import "bower_components/font-awesome/scss/fontawesome.scss";
+@import "bower_components/font-awesome/scss/solid.scss";
+// endbower
+
+// import base
+@import 'base/fonts';
+@import 'base/base';
+
+// import pagges
+@import 'pages/index';
+@import 'pages/list';
+@import 'pages/tab';
+@import 'pages/feature-list';

@@ -1,0 +1,45 @@
+.column__layout {
+    padding: 24px 0;
+
+    &-flex {
+        padding: 0 0 32px;
+        width: 100%;
+        display: block;
+        border: 0;
+
+        @include bp-normal {
+            width: calc(100% - 424px);
+            display: inline-block;
+            border-right: 1px solid $divider;
+            padding-right: 24px;
+        }
+    }
+
+    &-fixed {
+        width: 100%;
+        margin: 0;
+        display: block;
+        padding: 0;
+        border: 0;
+
+        @include bp-normal {
+            display: inline-block;
+            vertical-align: top;
+            width: 400px;
+            padding-left: 24px;
+            border-left: 1px solid $divider;
+            margin-left: -5px;
+        }
+    }
+}
+
+.section_heading {
+    padding-bottom: 16px;
+    color: $paragraph-color;
+    font-weight: normal;
+    border-bottom: 1px solid $divider;
+}
+
+.icon-size-60 {
+    font-size: 60px;
+}
